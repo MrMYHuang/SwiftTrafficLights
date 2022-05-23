@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var viewModel: ContentViewModel
+    
     var body: some View {
-        Text("Hello, world!")
+        Text("Light: \(viewModel.fsm.state.icon)")
+            .frame(width: 100, height: 100, alignment: .center)
             .padding()
     }
 }

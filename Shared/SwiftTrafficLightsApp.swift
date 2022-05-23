@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct SwiftTrafficLightsApp: App {
+    @StateObject var viewModel = ContentViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(viewModel)
         }
     }
 }
