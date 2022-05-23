@@ -25,6 +25,8 @@
 		13D3A9C3283B5604003CB7D7 /* SwiftTrafficLights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTrafficLights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D3A9C5283B5604003CB7D7 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		13D3A9D4283B8AF2003CB7D7 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		13D3A9D7283BB6BA003CB7D7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		13D3A9D8283BB8DE003CB7D7 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,8 @@
 		13D3A9B0283B5603003CB7D7 = {
 			isa = PBXGroup;
 			children = (
+				13D3A9D8283BB8DE003CB7D7 /* LICENSE.md */,
+				13D3A9D7283BB6BA003CB7D7 /* README.md */,
 				13D3A9B5283B5603003CB7D7 /* Shared */,
 				13D3A9C4283B5604003CB7D7 /* macOS */,
 				13D3A9BE283B5604003CB7D7 /* Products */,
